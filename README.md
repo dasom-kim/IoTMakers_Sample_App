@@ -3,7 +3,8 @@
 
 KT의 IoTMakers 개방형 플랫폼을 기반으로 제작된 앱 SDK를 이용하여 제작된 샘플 앱입니다.  
 [앱 SDK 개발](http://iotmakers.kt.com/openp/index.html#/guideAppSdk) 문서를 참고하여 커스터마이징 앱 개발이 가능합니다.  
-**이 소스에 포함된 SDK**는 위 문서를 통해 다운로드 가능한 SDK와 비교하여 아래와 같은 *차이*가 있습니다.  
+**이 소스에 포함된 SDK**는 위 문서를 통해 다운로드 가능한 SDK와 비교하여 아래와 같은 *차이*가 있습니다.
+해당 Sample App에 대한 저작권은 **dasom-kim**에게 있습니다.
 
 * * *
 
