@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_item_guide"
+            android:icon="@drawable/appguide"
+            android:checkable="false"
+            android:title="@string/drawer_menu_guide" />
+
+        <item
+            android:id="@+id/navigation_item_policy"
+            android:icon="@drawable/policy"
+            android:checkable="false"
+            android:title="@string/drawer_menu_policy" />
+
+        <item
+            android:id="@+id/navigation_item_account"
+            android:icon="@drawable/account_icon"
+            android:checkable="false"
+            android:title="@string/drawer_menu_account" />
+    </group>
+</menu>

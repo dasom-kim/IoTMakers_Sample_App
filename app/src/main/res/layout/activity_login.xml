@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:background="@android:color/white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/bg_login_panel"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <ImageView
+            android:layout_width="230dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/bi" />
+
+        <EditText
+            android:id="@+id/et_login_id"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_et_login_sel"
+            android:hint="ID"
+            android:includeFontPadding="false"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textCursorDrawable="@null" />
+
+        <EditText
+            android:id="@+id/et_login_pw"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_et_login_sel"
+            android:ems="10"
+            android:hint="Password"
+            android:includeFontPadding="false"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textCursorDrawable="@null" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iv_login_bt"
+                android:layout_width="230dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/bg_bt_login_sel" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/iv_login_bt"
+                android:layout_alignLeft="@id/iv_login_bt"
+                android:layout_alignRight="@id/iv_login_bt"
+                android:layout_alignTop="@id/iv_login_bt"
+                android:gravity="center"
+                android:text="로그인"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:background="#27284d">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="190dp"
+        card:cardUseCompatPadding="true"
+        card:cardBackgroundColor="#FFFFFF"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:id="@+id/DeviceStatus"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="right|top"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_gravity="bottom">
+
+            <ImageView
+                android:id="@+id/DeviceImage"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:scaleType="centerCrop">
+            </ImageView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:orientation="vertical"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:text="TextView"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/DeviceName"
+                        android:layout_width="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:textSize="20sp"
+                        android:textColor="#c0392b"
+                        android:ellipsize="end"
+                        android:lines="1">
+                    </TextView>
+
+                    <TextView
+                        android:text="subTextView"
+                        android:layout_gravity="center_horizontal"
+                        android:id="@+id/custom_list_title_sub"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:textSize="15sp"
+                        android:textColor="#29302E"
+                        android:includeFontPadding="false"
+                        android:ellipsize="end"
+                        android:maxLines="1">
+                    </TextView>
+
+                </LinearLayout>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

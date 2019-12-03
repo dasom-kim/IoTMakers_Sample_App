@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kt.iot.mobile.android">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+
+    <compatible-screens>
+        <screen
+            android:screenDensity="240"
+            android:screenSize="normal" />
+        <screen
+            android:screenDensity="320"
+            android:screenSize="normal" />
+        <screen
+            android:screenDensity="480"
+            android:screenSize="normal" />
+        <screen
+            android:screenDensity="640"
+            android:screenSize="normal" />
+        <screen
+            android:screenDensity="240"
+            android:screenSize="large" />
+        <screen
+            android:screenDensity="320"
+            android:screenSize="large" />
+        <screen
+            android:screenDensity="480"
+            android:screenSize="large" />
+        <screen
+            android:screenDensity="640"
+            android:screenSize="large" />
+    </compatible-screens>
+
+    <supports-screens android:xlargeScreens="false" />
+
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <permission
+        android:name="com.kt.iot.mobile.android.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.kt.iot.mobile.android.permission.C2D_MESSAGE" />
+
+    <!-- android:hardwareAccelerated="true" call to OpenGL ES API with no current context (logged once per thread) 해결 -->
+    <application
+        android:name="com.kt.iot.mobile.GiGaIotApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:theme="@style/AppTheme">
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths" />
+        </provider>
+
+        <!-- 강제 세로모드 -->
+        <activity
+            android:name="com.kt.iot.mobile.ui.activity.IntroActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kt.iot.mobile.ui.activity.LoginActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.kt.iot.mobile.ui.activity.MainActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.kt.iot.mobile.ui.activity.DeviceListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.kt.iot.mobile.ui.activity.DeviceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.kt.iot.mobile.ui.activity.DeviceSettingActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.kt.iot.mobile.ui.activity.PolicyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.kt.iot.mobile.ui.activity.GuideActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.kt.iot.mobile.ui.activity.AccountActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.kt.iot.mobile.ui.activity.SearchActivity"
+            android:screenOrientation="portrait" />
+
+        <service android:name="com.kt.iot.mobile.push.GCMIntentService" />
+
+        <receiver
+            android:name="com.kt.iot.mobile.push.GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="com.kt.iot.mobile.android" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

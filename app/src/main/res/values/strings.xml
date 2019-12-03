@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IoTMakers</string>
+
+    <!--common-->
+    <string name="common_cancel">취소</string>
+    <string name="common_wait">잠시만 기다려주세요</string>
+
+    <!--LoginActivity-->
+    <string name="login_id_empty">ID를 입력해주세요</string>
+    <string name="login_pw_empty">비밀번호를 입력해주세요</string>
+    <string name="login_fail">로그인 실패 \n</string>
+
+    <!--Drawer Menu-->
+    <string name="drawer_menu_guide">앱가이드</string>
+    <string name="drawer_menu_policy">약관과 정책</string>
+    <string name="drawer_menu_account">사용자 정보</string>
+    <string name="drawer_menu_iotmakers">Copyright 2018. GiGA IoTMakers All rights reserved.</string>
+
+    <!--Option Menu-->
+    <string name="action_settings">Settings</string>
+
+    <!--Action Bar-->
+    <string name="actionbar_title_setting_account">사용자 정보</string>
+    <string name="actionbar_title_device_setting">디바이스 수정</string>
+    <string name="select_guide">분류를 선택해주세요</string>
+    <string name="msg_ctrl_tag_none">제어 태그가 없습니다</string>
+    <string name="desc_open_drawer">open drawer</string>
+    <string name="desc_close_drawer">close drawer</string>
+
+    <!--사진 설정-->
+    <string name="image_take_photo">사진 찍기</string>
+    <string name="image_pick_album">사진 가져오기</string>
+
+    <!--Add Item-->
+    <!--0001:에너지, 0002:보안/안전-->
+    <!--0003:미디어, 0004:헬스/의료-->
+    <!--0005:커넥티드카, 0006:교육-->
+    <!--0007:유통/물류, 0008:여행/레져-->
+    <!--0009:스마트홈, 0010:스마트시티-->
+    <!--0011:농업, 0012:엔터테인먼트-->
+    <!--0013:기타-->
+
+    <string name="search_0000">전체</string>
+    <string name="search_0001">에너지</string>
+    <string name="search_0002">보안/안전</string>
+    <string name="search_0003">미디어</string>
+    <string name="search_0004">헬스/의료</string>
+    <string name="search_0005">커넥티드카</string>
+    <string name="search_0006">교육</string>
+    <string name="search_0007">유통/물류</string>
+    <string name="search_0008">여행/레저</string>
+    <string name="search_0009">스마트홈</string>
+    <string name="search_0010">스마트시티</string>
+    <string name="search_0011">농업</string>
+    <string name="search_0012">엔터테인먼트</string>
+    <string name="search_0013">기타</string>
+
+    <string name="tgt_loading_message">서비스 타겟 확인</string>
+    <string name="loading_message">데이터를 가져오고 있습니다</string>
+    <string name="search_result">검색 결과</string>
+    <string name="search_size_message">개</string>
+    <string name="search_empty">검색 결과가 없습니다</string>
+    <string name="internet_fail">인터넷 연결 상태를 확인하세요</string>
+    <string name="useY">사용</string>
+    <string name="useN">사용 안함</string>
+    <string name="last_modified">최종수정</string>
+    <string name="location_default">위치 확인 불가</string>
+    <string name="check_user">재로그인 후 이용하세요</string>
+
+    <string name="main_hello">안녕하세요!</string>
+    <string name="main_account">님,</string>
+    <string name="account_status">이용 현황</string>
+
+    <!--약관과 정책-->
+    <string name="terms_title">이용약관</string>
+    <string name="policy_title">개인정보 수집 및 이용안내</string>
+    <string name="terms">KT 개방형 IoT 포털 서비스 이용약관\nKT 개방형 IoT 포털 서비스 이용약관(\"이용약관\")에는 서비스 공급자인 KT(“KT\") 와 서비스 사용자인 고객(\"고객\" 또는 \"사용자\") 간의 법적 관계를 관할하고 규정하는 조항이 자세히 설명되어 있습니다.KT 개방형 IoT 포털 서비스 이용약관(\"이용약관\")에는 서비스 공급자인 KT(“KT\") 와 서비스 사용자인 고객(\"고객\" 또는 \"사용자\") 간의 법적 관계를 관할하고 규정하는 조항이 자세히 설명되어 있습니다.KT 개방형 IoT 포털 서비스 이용약관(\"이용약관\")에는 서비스 공급자인 KT(“KT\") 와 서비스 사용자인 고객(\"고객\" 또는 \"사용자\") 간의 법적 관계를 관할하고 규정하는 조항이 자세히 설명되어 있습니다.</string>
+    <string name="policy">개인정보 수집 및 이용에 대한 안내\nKT(이하 ‘회사’라 합니다)는 최초 회원가입 또는 서비스 이용 시 이용자로부터 아래와 같은 개인정보를 수집하고 있습니다. 이용자는 본 개인정보 수집•이용 동의서에 따른 동의 시, \'필요한 최소한의 정보 외의 개인정보\' 수집•이용에 동의하지 않을 권리가 있습니다.KT(이하 ‘회사’라 합니다)는 최초 회원가입 또는 서비스 이용 시 이용자로부터 아래와 같은 개인정보를 수집하고 있습니다. 이용자는 본 개인정보 수집•이용 동의서에 따른 동의 시, \'필요한 최소한의 정보 외의 개인정보\' 수집•이용에 동의하지 않을 권리가 있습니다.KT(이하 ‘회사’라 합니다)는 최초 회원가입 또는 서비스 이용 시 이용자로부터 아래와 같은 개인정보를 수집하고 있습니다. 이용자는 본 개인정보 수집•이용 동의서에 따른 동의 시, \'필요한 최소한의 정보 외의 개인정보\' 수집•이용에 동의하지 않을 권리가 있습니다.</string>
+
+    <!--앱가이드-->
+    <string name="guide_01">현장 디바이스 목록을 조회하고,\n공개 디바이스를 검색할 수 있습니다.</string>
+    <string name="guide_02">현장 디바이스의 이벤트 로그 목록을 조회할 수 있습니다.</string>
+    <string name="guide_03">현장 디바이스의 수집 로그를 조회할 수 있습니다.</string>
+    <string name="guide_04">현장 디바이스를 제어할 수 있습니다.</string>
+
+</resources>

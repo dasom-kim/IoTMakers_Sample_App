@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="image_menu">
+        <item>@string/image_take_photo</item>
+        <item>@string/image_pick_album</item>
+    </string-array>
+
+</resources>
