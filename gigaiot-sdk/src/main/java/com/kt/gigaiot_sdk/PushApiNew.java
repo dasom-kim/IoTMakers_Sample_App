@@ -25,6 +25,8 @@ import retrofit2.Response;
 
 /**
  * Created by ceoko on 15. 6. 18..
+ * Updated by DASOM
+ * 푸시 API (GCM 등록, GCM 해제)
  */
 public class PushApiNew {
 

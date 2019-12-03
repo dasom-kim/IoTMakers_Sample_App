@@ -27,6 +27,10 @@ import com.kt.iot.mobile.android.R;
 import com.kt.iot.mobile.utils.ApplicationPreference;
 import java.util.ArrayList;
 
+/*
+ * Updated by DASOM
+ * 미사용 (디바이스 등록)
+ */
 public class DeviceRegFragment extends Fragment implements View.OnClickListener{
     private final String TAG = DeviceRegFragment.class.getSimpleName();
     private EditText mEtSpotDevId, mEtDevNm, mEtSpotDevPw, mEtDevModelNm, mEttermlMakrN;

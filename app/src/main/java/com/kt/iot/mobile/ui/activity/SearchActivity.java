@@ -26,6 +26,10 @@ import org.w3c.dom.Text;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 
+/*
+ * Updated by DASOM
+ * 공공 디바이스 검색 및 조회 화면
+ */
 public class SearchActivity extends AppCompatActivity implements View.OnClickListener, AdapterView.OnItemClickListener, AdapterView.OnItemSelectedListener, OpenDeviceCardAdapter.OnOpenDeviceListSelectedListener {
     private ImageView mCloseBtn;
     private FloatingActionButton mFloatingActionBtn;

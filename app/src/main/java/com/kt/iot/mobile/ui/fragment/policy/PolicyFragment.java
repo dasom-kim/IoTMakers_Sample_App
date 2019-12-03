@@ -10,6 +10,10 @@ import android.widget.TextView;
 
 import com.kt.iot.mobile.android.R;
 
+/*
+ * Updated by DASOM
+ * 사용자 약관 화면 Fragment
+ */
 public class PolicyFragment extends Fragment {
 
     @Override

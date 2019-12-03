@@ -24,6 +24,10 @@ import java.util.ArrayList;
 
 import static com.kt.iot.mobile.data.GraphHtml.TAG;
 
+/*
+ * Updated by DASOM
+ * 공공 디바이스 조회 화면 카드 UI Adapter
+ */
 public class OpenDeviceCardAdapter extends RecyclerView.Adapter<OpenDeviceCardAdapter.CustomViewHolder> {
     public interface OnOpenDeviceListSelectedListener {
         void onOpenDeviceSelected(int position, DeviceOpen deviceopen);

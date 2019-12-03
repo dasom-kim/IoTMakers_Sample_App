@@ -21,6 +21,8 @@ import retrofit2.Response;
 
 /**
  * Created by ceoko on 15. 6. 12..
+ * Updated by DASOM
+ * 인증(로그인) API
  */
 public class GigaIotOAuthNew {
 

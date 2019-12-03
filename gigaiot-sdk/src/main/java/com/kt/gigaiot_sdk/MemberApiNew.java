@@ -22,6 +22,8 @@ import retrofit2.Response;
 
 /**
  * Created by ceoko on 15. 3. 23..
+ * Updated by DASOM
+ * 사용자 정보 API
  */
 public class MemberApiNew {
 

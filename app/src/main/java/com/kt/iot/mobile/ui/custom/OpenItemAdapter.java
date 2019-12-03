@@ -9,6 +9,10 @@ import android.widget.TextView;
 
 import com.kt.iot.mobile.android.R;
 
+/*
+ * Updated by DASOM
+ * 공공 디바이스 조회 결과 Adapter
+ */
 public class OpenItemAdapter extends BaseAdapter {
     /*0001:에너지, 0002:보안/안전
     0003:미디어, 0004:헬스/의료

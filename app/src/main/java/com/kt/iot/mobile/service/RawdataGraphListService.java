@@ -116,7 +116,7 @@ public class RawdataGraphListService {
                                                             }
                                                         }
 
-                                                        if(logs.size() > 0){            //현재 태그스트림의 데이터가 있어야 logStreams에 추가한다.
+                                                        if(logs.size() > 0){    //현재 태그스트림의 데이터가 있어야 logStreams에 추가한다.
                                                             for(Log tmp : logs) {
                                                                 android.util.Log.w(TAG, "TAG ID = " + tag.getTagStrmId() + " | value = " + tmp.getAttributes().get(tag.getTagStrmId()));
                                                             }

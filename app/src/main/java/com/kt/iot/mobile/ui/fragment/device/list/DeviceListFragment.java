@@ -29,6 +29,10 @@ import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.HashMap;
 
+/*
+ * Updated by DASOM
+ * 디바이스 목록 화면 Fragment
+ */
 public class DeviceListFragment extends Fragment implements View.OnClickListener, SwipeRefreshLayout.OnRefreshListener {
     private static final String TAG = DeviceListFragment.class.getSimpleName();
     private ArrayList<DeviceNew> mDevices;

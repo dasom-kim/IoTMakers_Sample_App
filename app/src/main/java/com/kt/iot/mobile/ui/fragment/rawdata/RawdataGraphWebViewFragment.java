@@ -30,6 +30,10 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+/*
+ * Updated by DASOM
+ * 이벤트 데이터 관련 그래프 화면(상세화면 내 페이징) Fragment
+ */
 public class RawdataGraphWebViewFragment extends Fragment implements RawdataGraphListService.UpdateListener{
 
     private static final String TAG = RawdataGraphWebViewFragment.class.getSimpleName();

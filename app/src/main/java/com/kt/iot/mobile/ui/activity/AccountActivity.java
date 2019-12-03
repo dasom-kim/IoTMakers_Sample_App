@@ -16,6 +16,10 @@ import com.kt.iot.mobile.ui.fragment.settings.AccountFragment;
 import com.kt.iot.mobile.utils.ApplicationPreference;
 import com.kt.iot.mobile.utils.Util;
 
+/*
+ * Updated by DASOM
+ * 사용자 정보 화면
+ */
 public class AccountActivity extends AppCompatActivity implements View.OnClickListener{
 
     private final String TAG = AccountActivity.class.getSimpleName();

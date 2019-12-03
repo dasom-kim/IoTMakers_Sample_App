@@ -6,6 +6,10 @@ import android.support.v4.app.FragmentPagerAdapter;
 
 import java.util.ArrayList;
 
+/*
+ * Updated by DASOM
+ * 디바이스 상세 화면 내 페이징 Adapter
+ */
 public class DeviceTabPageAdapter extends FragmentPagerAdapter {
 
     String[] mTitles;

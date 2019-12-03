@@ -6,6 +6,10 @@ import android.support.v4.app.FragmentPagerAdapter;
 
 import java.util.ArrayList;
 
+/*
+ * Updated by DASOM
+ * 앱 가이드 화면 페이징 Adapter
+ */
 public class GuideViewPagerAdapter extends FragmentPagerAdapter {
 
 

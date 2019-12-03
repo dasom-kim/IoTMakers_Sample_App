@@ -24,58 +24,61 @@ import java.io.InputStream;
 public class GiGaIotApplication extends Application{
 
     public static final String TAG = GiGaIotApplication.class.getSimpleName();
-
-   private static Typeface mTypeface;
+    private static Typeface mTypeface;
 
     @Override
     public void onCreate() {
+
         super.onCreate();
 
         ApplicationPreference.init(this);
         initChartLibrary();
         initImageLoader(getApplicationContext());
+
     }
 
     public static Typeface getDefaultTypeFace(){
 
         return mTypeface;
+
     }
 
-    private void initChartLibrary(){
+    private void initChartLibrary() {
 
-        if(TextUtils.isEmpty(Util.getChartHomeDir())){
+        if (TextUtils.isEmpty(Util.getChartHomeDir())){
+
             Util.setChartHomeDir(getExternalFilesDir(null).getAbsolutePath());
             File chartHomeDir = new File(Util.getChartHomeDir());
 
-            if(!chartHomeDir.exists()){
+            if (!chartHomeDir.exists()) {
+
                 Log.d(TAG, "initChartLibrary chartHomeDir is not exist. so, make dir");
                 chartHomeDir.mkdir();
+
             }
+
         }
 
         String chartLibFilepath = Util.getChartHomeDir() + "/Chart.js";
-
         File libFile = new File(chartLibFilepath);
 
-        if(!libFile.exists()){
+        if(!libFile.exists()) {
 
             Log.d(TAG, "initChartLibrary Chart.js is not exist");
-
             AssetManager assetManager = getAssets();
 
             try {
-
                 InputStream in = assetManager.open("chart/Chart.js");
-
                 Util.copyToFile(in, libFile);
-
             } catch (IOException e) {
                 e.printStackTrace();
             }
 
-        }else{
+        } else {
+
             Log.d(TAG, "initChartLibrary Chart.js is exist");
             return;
+
         }
     }
 

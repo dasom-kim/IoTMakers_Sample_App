@@ -31,6 +31,10 @@ import com.kt.iot.mobile.utils.ModifyDeviceMgr;
 import com.kt.iot.mobile.utils.Util;
 import java.util.ArrayList;
 
+/*
+ * Updated by DASOM
+ * 디바이스 상세 화면
+ */
 public class DeviceActivity extends AppCompatActivity {
 
     private final String TAG = DeviceActivity.class.getSimpleName();
@@ -70,7 +74,7 @@ public class DeviceActivity extends AppCompatActivity {
         super.onResume();
 
         if(mDevice != null && ModifyDeviceMgr.getModifyDevice() != null){
-            //최근 수정된 디바이스 정보와 spotDevSeq가 같은경우
+            //최근 수정된 디바이스 정보와 spotDevSeq가 같은 경우, 디바이스 이름을 setting
             if(mDevice.getSequence().equals(ModifyDeviceMgr.getModifyDevice().getSequence())){
                 mDevice.setName(ModifyDeviceMgr.getModifyDevice().getName());
             }

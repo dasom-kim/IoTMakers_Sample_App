@@ -6,6 +6,11 @@ import android.content.SharedPreferences.Editor;
 
 import com.kt.iot.mobile.android.R;
 
+/*
+ * Updated by DASOM
+ * 로그인 시에 ID, Member Sequence, Access Token setting
+ * 그 외 유저 관련 정보 setting, getting 하는 class
+ */
 public class ApplicationPreference {
 
 	public static final String PREF_NAME = "gigaiot.pref";

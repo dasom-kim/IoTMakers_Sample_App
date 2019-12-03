@@ -36,5 +36,4 @@ public class LogStream {
         logList.add(log);
     }
 
-
 }

@@ -23,6 +23,8 @@ import retrofit2.Response;
 
 /**
  * Created by ceoko on 15. 3. 24..
+ * Updated by DASOM
+ * 태그 스트림 목록, 로그, 제어 API
  */
 public class TagStrmApiNew {
 

@@ -23,6 +23,8 @@ import retrofit2.Response;
 
 /**
  * Created by ceoko on 15. 3. 23..
+ * Updated by DASOM
+ * 이벤트 목록, 이벤트 로그 목록(두가지 버전) API
  */
 public class EventApiNew {
 

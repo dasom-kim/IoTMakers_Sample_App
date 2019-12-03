@@ -37,6 +37,8 @@ import retrofit2.Response;
 
 /**
  * Created by ceoko on 15. 3. 23..
+ * Updated by DASOM
+ * 디바이스 등록 (미사용), 디바이스 이미지 업로드 관련 API
  */
 public class DeviceApiNew {
 
@@ -127,7 +129,6 @@ public class DeviceApiNew {
         checkAccessToken();
 
         //error handling - parameter missing
-//        if(!Utils.isValidParams(device.getSvcTgtSeq(), device.getSpotDevSeq(), filePath)){
         if(!Utils.isValidParams(device.getTarget().getSequence(), device.getSequence(), filePath)){
             apiCallback.onFail();
             return;
@@ -151,19 +152,6 @@ public class DeviceApiNew {
 
         apiList = APIClient.getAUTHClient().create(APIList.class);
         Call<SvrResponse<Device>> call;
-
-//        if(TextUtils.isEmpty(device.getAtcFileSeq())) { //최초 등록시
-//            call = apiList.doPostDeviceUploadImage(device.getSvcTgtSeq(),
-//                    device.getSpotDevSeq(),
-//                    mAccessToken,
-//                    body);
-//        } else { //기 등록된 이미지 수정시
-//            call = apiList.doPostDeviceUpdateImage(device.getSvcTgtSeq(),
-//                    device.getSpotDevSeq(),
-//                    mAccessToken,
-//                    body,
-//                    device.getAtcFileSeq());
-//        }
 
         if(TextUtils.isEmpty(device.getImageFileId())) { //최초 등록시
             call = apiList.doPostDeviceUploadImage(device.getTarget().getSequence(),

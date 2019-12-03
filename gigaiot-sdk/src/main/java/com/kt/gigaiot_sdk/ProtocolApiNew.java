@@ -24,6 +24,8 @@ import retrofit2.Response;
 
 /**
  * Created by ceoko on 15. 3. 23..
+ * Updated by DASOM
+ * 프로토콜 목록, Bind Type 목록 API
  */
 public class ProtocolApiNew {
 

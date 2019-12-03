@@ -10,6 +10,10 @@ import com.kt.iot.mobile.android.R;
 import com.kt.iot.mobile.utils.ApplicationPreference;
 import com.kt.iot.mobile.utils.Util;
 
+/*
+ * Updated by DASOM
+ * 진입
+ */
 public class IntroActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {

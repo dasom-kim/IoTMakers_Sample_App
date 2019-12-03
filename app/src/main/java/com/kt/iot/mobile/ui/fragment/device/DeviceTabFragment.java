@@ -17,6 +17,10 @@ import com.viewpagerindicator.TabPageIndicator;
 
 import java.util.ArrayList;
 
+/*
+ * Updated by DASOM
+ * 디바이스 상세 화면 내 페이징 화면 Fragment
+ */
 public class DeviceTabFragment extends Fragment {
     private final String TAG = DeviceTabFragment.class.getSimpleName();
     private ArrayList<Fragment> mArrayFragments = new ArrayList<>();

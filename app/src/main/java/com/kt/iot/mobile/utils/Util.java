@@ -34,6 +34,8 @@ import static com.nostra13.universalimageloader.core.ImageLoader.TAG;
 
 /**
  * Created by ceoko on 15. 4. 13..
+ * Updated by DASOM
+ * 앱 내에서 쓰는 공통 유틸
  */
 
 public class Util {

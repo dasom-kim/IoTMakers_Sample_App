@@ -20,6 +20,10 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
+/*
+ * Updated by DASOM
+ * 공공 디바이스 목록 API
+ */
 public class PublicDeviceApi {
     private final String TAG = DeviceApiStatus.class.getSimpleName();
 

@@ -12,6 +12,10 @@ import com.kt.iot.mobile.android.R;
 
 import java.util.ArrayList;
 
+/*
+ * Updated by DASOM
+ * 디바이스 제어 요청 화면(상세 화면 내 페이징) Fragment
+ */
 public class DeviceCtrlListFragment extends ListFragment {
 
     private DeviceNew mDevice;

@@ -11,6 +11,10 @@ import com.kt.iot.mobile.android.R;
 import com.kt.iot.mobile.ui.fragment.policy.PolicyFragment;
 import com.kt.iot.mobile.utils.Util;
 
+/*
+ * Updated by DASOM
+ * 사용자 약관 화면
+ */
 public class PolicyActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {

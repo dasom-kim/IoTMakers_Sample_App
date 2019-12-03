@@ -12,6 +12,10 @@ import com.kt.gigaiot_sdk.data.DeviceNew;
 import com.kt.iot.mobile.GiGaIotApplication;
 import com.kt.iot.mobile.android.R;
 
+/*
+ * Updated by DASOM
+ * 디바이스 상세 화면 Fragment
+ */
 public class DeviceDetailFragment extends Fragment {
     private final String TAG = DeviceDetailFragment.class.getSimpleName();
     private DeviceNew device;

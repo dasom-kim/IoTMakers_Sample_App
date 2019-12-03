@@ -13,6 +13,10 @@ import com.kt.iot.mobile.android.R;
 
 import java.util.ArrayList;
 
+/*
+ * Updated by DASOM
+ * 이벤트 로그 목록 Adapter
+ */
 public class EventLogListAdapter extends ArrayAdapter<EventLog>  {
 
     private Context m_Context   = null;

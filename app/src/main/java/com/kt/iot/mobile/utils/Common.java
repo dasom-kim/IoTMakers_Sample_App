@@ -2,6 +2,8 @@ package com.kt.iot.mobile.utils;
 
 /**
  * Created by ceoko on 15. 6. 30..
+ * Updated by DASOM
+ * GCM 서비스 등록 시 사용하는 정보
  */
 public class Common {
 

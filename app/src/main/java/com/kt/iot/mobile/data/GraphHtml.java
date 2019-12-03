@@ -9,10 +9,9 @@ import java.util.ArrayList;
  * Created by ceoko on 15. 5. 21..
  */
 public class GraphHtml {
-
         public static final String TAG = GraphHtml.class.getSimpleName();
 
-     public static String getGraphHtmlString(ArrayList<LogStream> data){
+        public static String getGraphHtmlString(ArrayList<LogStream> data) {
 
              String graphHtml = HEADER;
              String scriptPart = BODY_SCRIPT;
@@ -20,25 +19,21 @@ public class GraphHtml {
              String divPart = "";
              String scriptPartIn = "";
 
-             for(int i=0; i<data.size(); i++){
+             for(int i = 0; i < data.size(); i++) {
 
                      LogStream logStream = data.get(i);
                      ArrayList<Log> logs = logStream.getLogList();
                      String tagId = logStream.getTag().getTagStrmId();
                      divPart += String.format(BODY_DIV, tagId.toUpperCase(), tagId.toUpperCase());
 
-
                      String valuePart = "";
                      String occDtPart = "";
 
-                     if(logs != null && logs.size() > 0) {
-
+                     if (logs != null && logs.size() > 0) {
                              for (int j = logs.size()-1; j >=0; j--) {
-
                                      /*if (j == 5) {
                                              break;
                                      }*/
-
                                      valuePart += logs.get(j).getAttributes().get(tagId);
                                      valuePart += ",";
 
@@ -50,24 +45,23 @@ public class GraphHtml {
 
                              valuePart = valuePart.substring(0, valuePart.length()-1);
                              occDtPart = occDtPart.substring(0, occDtPart.length()-1);
-                     }else{
-
+                     } else {
                              valuePart = "\"\",\"\",\"\",\"\",\"\"";
                      }
 
                      android.util.Log.w(TAG, "getGraphHtmlString " + tagId.toUpperCase() + " valuePart = " + valuePart + " occDtPart = " + occDtPart);
-
                      scriptPartIn += String.format(BODY_SCRIPT_IN, i, tagId.toUpperCase(), i, occDtPart,valuePart);
 
              }
 
-             if(divPart.equals("")){
+             if (divPart.equals("")) {
+
                      //모든 계측 태그가 데이터가 없는 경우 null 반환.
                      return null;
+
              }
 
              graphHtml = graphHtml + divPart + String.format(scriptPart, scriptPartIn) + FOOTER;
-
 
              return graphHtml;
      }

@@ -26,6 +26,9 @@ import retrofit2.Response;
 
 /**
  * Created by ceoko on 15. 3. 23..
+ * Updated by DASOM
+ * 디바이스 제어 API
+ *
  */
 public class DeviceApiStatus {
 
@@ -56,15 +59,8 @@ public class DeviceApiStatus {
 
         try {
             requestObj.addProperty("inclGwCntId", inclGwCntId);
-
             JsonArray array = new JsonArray();
-
             array.add(inclSpotDevId);
-
-//            for (int i = 0; i < inclSpotDevId.size(); i++) {
-//                array.add(inclSpotDevId.get(i));
-//            }
-
             requestObj.add("inclSpotDevId", array);
 
             Log.d(TAG, "deviceStatus requestJson = " + requestObj);

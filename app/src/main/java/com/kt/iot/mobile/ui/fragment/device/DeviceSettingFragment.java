@@ -43,6 +43,10 @@ import com.kt.iot.mobile.utils.Util;
 import java.io.File;
 import java.io.IOException;
 
+/*
+ * Updated by DASOM
+ * 디바이스 설정 화면 Fragment
+ */
 public class DeviceSettingFragment extends Fragment implements View.OnClickListener {
 
     private final String TAG = DeviceSettingFragment.class.getSimpleName();

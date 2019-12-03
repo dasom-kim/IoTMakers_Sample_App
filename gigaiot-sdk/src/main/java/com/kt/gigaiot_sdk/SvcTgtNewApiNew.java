@@ -23,6 +23,10 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
+/*
+ * Updated by DASOM
+ * service target sequence 목록 API
+ */
 public class SvcTgtNewApiNew {
 
     private final String TAG = SvcTgtNewApiNew.class.getSimpleName();

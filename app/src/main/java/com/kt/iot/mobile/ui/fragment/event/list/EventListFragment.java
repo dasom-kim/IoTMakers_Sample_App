@@ -24,6 +24,10 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 
+/*
+ * Updated by DASOM
+ * 이벤트 목록 화면(상세 화면 내 페이징) Fragment
+ */
 public class EventListFragment extends ListFragment {
     private final String TAG = EventListFragment.class.getSimpleName();
     public static final String ACTION_RECIVER_EVENT = "com.kt.iot.mobile.action.EVENT";

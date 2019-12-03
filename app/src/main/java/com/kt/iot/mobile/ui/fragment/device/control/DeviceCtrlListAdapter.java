@@ -28,6 +28,10 @@ import com.kt.iot.mobile.utils.ApplicationPreference;
 
 import java.util.ArrayList;
 
+/*
+ * Updated by DASOM
+ * 디바이스 제어 요청 (상세 화면 내 페이징) Adapter
+ */
 public class DeviceCtrlListAdapter extends BaseAdapter{
 
     private final String TAG = DeviceCtrlListAdapter.class.getSimpleName();

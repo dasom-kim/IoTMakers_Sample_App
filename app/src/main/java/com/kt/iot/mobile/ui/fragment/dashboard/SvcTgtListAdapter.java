@@ -12,6 +12,10 @@ import com.kt.gigaiot_sdk.data.SvcTgt;
 
 import java.util.ArrayList;
 
+/*
+ * Updated by DASOM
+ * 미사용
+ */
 public class SvcTgtListAdapter extends ArrayAdapter<SvcTgt>{
     public interface OnSvcTgtListSelectedListener {
         void onSvcTgtSelected(int position, ArrayList<SvcTgt> svcTgt);

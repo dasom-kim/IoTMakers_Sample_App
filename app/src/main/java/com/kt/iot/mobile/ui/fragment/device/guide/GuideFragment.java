@@ -10,6 +10,10 @@ import android.widget.TextView;
 
 import com.kt.iot.mobile.android.R;
 
+/*
+ * Updated by DASOM
+ * 앱 가이드 화면 Fragment
+ */
 public class GuideFragment extends Fragment {
 
     private int mIndex;

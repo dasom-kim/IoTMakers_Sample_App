@@ -32,6 +32,10 @@ import java.util.ArrayList;
 
 import static com.kt.iot.mobile.data.GraphHtml.TAG;
 
+/*
+ * Updated by DASOM
+ * 디바이스 목록 카드형 UI Adapter
+ */
 public class DeviceCardAdapter extends RecyclerView.Adapter<DeviceCardAdapter.CustomViewHolder> {
 
     public interface OnDeviceListSelectedListener {

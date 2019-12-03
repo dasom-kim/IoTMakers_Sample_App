@@ -27,6 +27,10 @@ import com.kt.iot.mobile.utils.Util;
 
 import java.util.ArrayList;
 
+/*
+ * Updated by DASOM
+ * 사용자 정보 화면 Fragment
+ */
 public class AccountFragment extends Fragment {
     private TextView mEtUserName, mEtUserPhone, mEtUserEmail;
     private PieChart openDeviceYN;

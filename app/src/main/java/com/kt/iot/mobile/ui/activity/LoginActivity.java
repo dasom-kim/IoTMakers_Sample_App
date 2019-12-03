@@ -25,6 +25,10 @@ import com.kt.iot.mobile.utils.Util;
 
 import java.io.IOException;
 
+/*
+ * Updated by DASOM
+ * 로그인 화면
+ */
 public class LoginActivity extends Activity implements View.OnClickListener {
     private final String TAG = LoginActivity.class.getSimpleName();
     private EditText mEtId, mEtPw;

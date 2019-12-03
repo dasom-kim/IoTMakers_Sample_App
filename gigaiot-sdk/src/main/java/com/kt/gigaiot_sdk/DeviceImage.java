@@ -17,6 +17,8 @@ import retrofit2.Response;
 
 /**
  * Created by ceoko on 15. 3. 23..
+ * Updated by DASOM
+ * 디바이스 이미지 API
  */
 public class DeviceImage {
 

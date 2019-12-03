@@ -25,6 +25,8 @@ import retrofit2.Response;
 
 /**
  * Created by ceoko on 15. 3. 23..
+ * Updated by DASOM
+ * 디바이스 목록, 디바이스 정보 변경, 디바이스 제어 (신규 버전 API. 미사용) API
  */
 public class DeviceNewApiNew {
 

@@ -23,6 +23,10 @@ import java.util.ArrayList;
 
 import static android.support.constraint.Constraints.TAG;
 
+/*
+ * Updated by DASOM
+ * 공공 디바이스 조회 화면 Fragment
+ */
 public class OpenDeviceListFragment extends Fragment implements View.OnClickListener {
     private ArrayList<DeviceOpen> mArrayDeviceOpen;
     private boolean mScrollOccured = false;

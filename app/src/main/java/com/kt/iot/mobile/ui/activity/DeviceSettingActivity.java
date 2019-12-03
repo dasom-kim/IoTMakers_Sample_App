@@ -24,6 +24,10 @@ import com.kt.iot.mobile.android.R;
 import com.kt.iot.mobile.ui.fragment.device.DeviceSettingFragment;
 import com.kt.iot.mobile.utils.Util;
 
+/*
+ * Updated by DASOM
+ * 디바이스 수정 화면
+ */
 public class DeviceSettingActivity extends AppCompatActivity {
     private final String TAG = DeviceSettingActivity.class.getSimpleName();
     public static final String EXTRA_DEVICE = "device";

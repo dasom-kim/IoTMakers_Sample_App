@@ -19,6 +19,10 @@ import com.kt.iot.mobile.ui.fragment.device.control.DeviceCtrlListFragment;
 import com.kt.iot.mobile.ui.fragment.device.detail.DeviceDetailFragment;
 import com.kt.iot.mobile.utils.ApplicationPreference;
 
+/*
+ * Updated by DASOM
+ * 디바이스 상세 화면 Fragment
+ */
 public class DeviceFragment extends Fragment {
     private static final String TAG = DeviceFragment.class.getSimpleName();
     //private Device mDevice;

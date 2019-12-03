@@ -19,6 +19,10 @@ import com.kt.iot.mobile.ui.fragment.device.list.DeviceCardAdapter;
 import com.kt.iot.mobile.ui.fragment.device.list.DeviceListFragment;
 import com.kt.iot.mobile.utils.Util;
 
+/*
+ * Updated by DASOM
+ * 디바이스 목록 화면 (메인)
+ */
 public class DeviceListActivity extends AppCompatActivity implements DeviceCardAdapter.OnDeviceListSelectedListener{
     private final String TAG = DeviceListActivity.class.getSimpleName();
     public final static String EXTRA_SVCTGT = "svctgt";

@@ -14,6 +14,10 @@ import com.viewpagerindicator.CirclePageIndicator;
 
 import java.util.ArrayList;
 
+/*
+ * Updated by DASOM
+ * 앱 가이드 화면
+ */
 public class GuideActivity extends FragmentActivity implements View.OnClickListener {
 
     @Override
