@@ -12,9 +12,4 @@ public class ApiConstants {
     public static final String CHARSET_UTF8    = ";charset=utf-8";
     public static final String MIME_JSON	    = "json" + CHARSET_UTF8;
     public static final String CONTENT_TYPE    = "Content-Type";   // 헤더에 들어갈 content type key name
-    public static final String OPEN_API_BASE_ADDRESS = "http://iotmakers.kt.com/";
-    public static final String STATUS_FALSE = "0001";
-    public static final String STATUS_TRUE = "0002";
-    public static final String STATUS_NOTCP = "0003";
-    public static final String STATUS_VIRTUAL = "0004";
 }
